@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Web Player: Music For Everyone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./Assets/spotify logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Young+Serif&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="option">
+                    <div class="lib-option ">
+                        <i class="fa-solid fa-book-open-reader"></i>
+                        <a href="#">Your Library</a>
+                        <a href="#"><i class="fa-solid fa-plus"></i></a>
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="boxes">
+                    <p class="box-p1">Create Your First Playlist</p>
+                    <p class="box-p2">It's easy, we'll help you</p>
+                    <button class="badge">create playlist</button>
+                </div>
+                    <div class="boxes">
+                    <p class="box-p1">Let's find some podcasts to follow</p>
+                    <p class="box-p2">we'll keep you updated on new episodes</p>
+                    <button class="badge">Browse podcasts</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-arrows">
+                <div class="arrows"><i style="opacity: .5;" class="fa-solid fa-less-than"></i> <i class="fa-solid fa-greater-than"></i></div>
+            </div>
+            <div class="sticky-nav-options">
+                <button class=" hide badge">Explore Premium</button>
+                <button class="badge badge1"><i class="fa-regular fa-circle-down"></i> Install Apps</button>
+               <a class="person" href="#"><i class="fa-regular fa-user"></i></a>
+            </div>
+            </div>
+                <h3>Recently Played</h3>
+                <div class="card-container">
+                    <div class="card">
+                        <img class="card-img" src="./Assets/card1 img.jpg">
+                        <p class="card-title">Top-50 Global</p>
+                        <p class="card-info">Your Daily Updates of the most played tracks...</p>
+                    </div>
+                </div>
+                <h3>Playlists For You!</h3>
+                <div class="card-container">
+                    <div class="card">
+                        <img class="card-img" src="./Assets/img 3.jpeg">
+                        <p class="card-title">Mahiye Jinne Sona</p>
+                        <p class="card-info">Darshan Rawal</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="./Assets/img 4.jpeg">
+                        <p class="card-title">Pasoori nu</p>
+                        <p class="card-info">Arijit Singh, Rochak Kohli, Tulsi Kumar</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="./Assets/People Song.jpg">
+                        <p class="card-title">People</p>
+                        <p class="card-info">Anubhav Shukla,Aryan Singh Tiwari,Rishabh Dwivedi</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="./Assets/Hanuman Chalisa.jpg">
+                        <p class="card-title">Hanuman Chalisa</p>
+                        <p class="card-info">Hariharan and Gulsan Kumar</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="./Assets/img 8.jpeg">
+                        <p class="card-title">Balam Pichkari</p>
+                        <p class="card-info">Vishal Dadlani from Yeh Jawan...</p>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="line"></div>
+                </div>
+
+        </div>
+        <div class="music-player">
+            <div class="music-icon">
+                <img src="Assets/Hanuman Chalisa.jpg">
+                <div class="music-name">
+                <a href="#">Hanuman Chalisa</a>
+                <p>Gulsan Kum...</p>
+            </div>
+            <a class="music-player-icons" href="#"><i class="fa-regular fa-heart"></i></a>
+            <a class="music-player-icons" href="#"><i class="fa-solid fa-wallet"></i></a>
+            </div>
+            <div class="music-control">
+                <div class="music-control-icons">
+                <a class="music-control-icon" href="#"><i class="fa-solid fa-shuffle"></i></a>
+                <a class="music-control-icon" href="#"><i class="fa-solid fa-backward-step"></i></a>
+                <a class="music-control-icon" href="#"><i class="fa-regular fa-circle-pause"></i></a>
+                <a class="music-control-icon" href="#"><i class="fa-solid fa-forward-step"></i></a>
+                <a class="music-control-icon" href="#"><i class="fa-solid fa-repeat"></i></a>
+                </div>
+                <div class="music-control-time">
+                    <span class="initial-time">01:25</span>
+                    <input class="time-range" type="range">
+                    <span class="final-time">03:29</span>
+                </div>
+            </div>
+
+            <div class="music-options">
+                <a class="music-options-icons" href="#"><i class="fa-solid fa-video"></i></a>
+                <a class="music-options-icons" href="#"><i class="fa-solid fa-microphone"></i></a>
+                <a class="music-options-icons" href="#"><i class="fa-solid fa-bars"></i></a>
+                <a class="music-options-icons" href="#"><i class="fa-solid fa-volume-high"></i></a>
+                <input class="volume" type="range">
+            </div> 
+    </div>
+    </div>
+</body>
+</html>
